@@ -4,22 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WOODEN STUDIO</title>
-    <meta name="description" content="架空のオーダーメイド家具屋 WOODENSTUDIOの公式サイト" />
-
-    <meta name="robots" content="noindex" />
-
-    <!-- OGP -->
-    <meta property="og:url" content=" https://higa-ma.github.io/woodenstudio24/" />
-    <meta property="og:type" content=" website" />
-    <meta property="og:title" content=" WOODEN STUDIO" />
-    <meta property="og:description" content=" 架空のオーダーメイド家具屋 WOODENSTUDIOの公式サイト" />
-    <meta property="og:site_name" content="WOODENSTUDIO" />
-    <meta property="og:image" content=" サムネイル画像の URL" />
-
-    <!-- X OGP -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@higama482
-    " />
 
     <!-- Reset CSS CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@4.0.1/destyle.min.css">
@@ -41,7 +25,7 @@
     <div class="modal">
         <div class="modal-overlay">
             <div class="modal-container">
-                <i class="fa-solid fa-xmark close"></i>
+                <i class="fa-solid fa-xmark"></i>
                 <nav class="nav">
                     <ul class="nav-menu">
                         <li class="nav-menu__link"><a href="#concept">CONCEPT</a></li>
@@ -74,8 +58,9 @@
                 <p>お問い合わせ</p>
             </a>
         </nav>
+        <!-- スマホ用のメニューのアイコン -->
         <div class="ham">
-            <div class="ham-icon">
+            <div class="ham__icon">
                 <div class="ham__border"></div>
                 <div class="ham__border"></div>
                 <div class="ham__border"></div>
@@ -85,7 +70,6 @@
     </header>
 
     <main>
-
         <!-- ヒーローエリア -->
         <div class="hero"></div>
         
@@ -100,8 +84,8 @@
                         </div>
                         <div class="concept-content">
                             <h3 class="concept-content__head">家具と共に時を過ごす</h3>
-                            <p class="concept-content__text">家具だけど、まるで家族みたいなかけがえのない存在。<br class="sp-none">
-                                私たちのつくる家具はあなたや家族と共に時を重ねるにつれて、<br class="sp-none">
+                            <p class="concept-content__text">家具だけど、まるで家族みたいなかけがえのない存在。<br>
+                                私たちのつくる家具はあなたや家族と共に時を重ねるにつれて、<br>
                                 味わい深く変化していきます。<br>
                                 楽しい時も悲しい時もいつもそばにいてくれる。<br>
                                 かけがえのない家族の一員となってくれることでしょう。</p>
@@ -277,7 +261,7 @@
 
         <!-- CONTACT -->
         <div class="contact">
-            <p class="contact__message">オーダーのご相談は<br class="pc-none">お気軽にお問い合わせください</p>
+            <p class="contact__message">オーダーのご相談はお気軽にお問い合わせください</p>
             <a href="#" class="btn btn--fill">
                 <i class="fa-regular fa-envelope"></i>
                 <p>お問い合わせ</p>
@@ -304,12 +288,10 @@
         <p class="footer__copyright">©️ WOODEN STUDIO</p>
 
     </footer>
-
-    <!-- gsap -->
+    <!-- gsap & scrolltriger -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <!-- main.js -->
+    <!-- js -->
     <script src="js/main.js"></script>
-    <script src="js/modal.js"></script>
 </body>
 </html>
